@@ -1,0 +1,6 @@
+x = int(input("Bir sayı giriniz:"))
+fakt = 1
+for i in range(1,x + 1):
+    fakt = fakt * i
+
+print(fakt)
